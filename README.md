@@ -39,7 +39,7 @@ GIF created with [ezgif](https://ezgif.com/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The most challenging part was using values from one IBAction function in another function. Additionally, I had trouble getting the button to work and the correctly display the pop-up menu.
 
 ## License
 
