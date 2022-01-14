@@ -58,16 +58,15 @@ class ViewController: UIViewController {
         
         // Get the amount each person should
         let totalPerPerson = totalCalculated / numOfPeople
-        var dialogMessage = UIAlertController(title: "Total Per Person", message: String(format: "$%.2f", totalPerPerson), preferredStyle: .alert)
         
-        // Create OK button with action handler
-        let ok = UIAlertAction(title: "OK", style: .default, handler: { (action) -> Void in
-            print("Ok button tapped")
-         })
+        // Update Dialog Message
+        let dialogMessage = UIAlertController(title: "Total Per Person", message: String(format: "$%.2f", totalPerPerson), preferredStyle: .alert)
         
-        //Add OK button to a dialog message
-        dialogMessage.addAction(ok)
-        // Present Alert to
+        let exitValue = UIAlertAction(title: "Exit", style: .default, handler: {(action) -> Void in print("Exit button tapped")
+            
+        } )
+        dialogMessage.addAction(exitValue)
+        
         self.present(dialogMessage, animated: true, completion: nil)
         
     }
