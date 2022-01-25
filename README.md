@@ -32,7 +32,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![](https://i.imgur.com/VMAzpc7.gif)
+![](https://i.imgur.com/gDRZfa2.gif)
 
 
 GIF created with [ezgif](https://ezgif.com/).
