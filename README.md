@@ -39,7 +39,7 @@ GIF created with [ezgif](https://ezgif.com/).
 
 ## Notes
 
-The most challenging part was using values from one IBAction function in another function. Additionally, I had trouble getting the button to work and the correctly display the pop-up menu.
+Obtaining a value from one IBAction function and then using that value in another IBAction function was the most challenging part of the program. Additionally, I had trouble with displaying the pop-up menu that was associated with the calculate tip button.
 
 ## License
 
